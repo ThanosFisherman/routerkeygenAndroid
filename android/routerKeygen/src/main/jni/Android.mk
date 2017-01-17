@@ -16,7 +16,6 @@ ifeq ($(TARGET_ARCH),x86)
  
 endif 
 ifeq ($(TARGET_ARCH),mips) 
-    LOCAL_CFLAGS :=$(LOCAL_CFLAGS) -march=mips1
     LOCAL_SRC_FILES := sha/sha1-mips.S
  
 endif 
